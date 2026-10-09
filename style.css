@@ -1,0 +1,14 @@
+.navbar-expand-sm {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  
+}
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}

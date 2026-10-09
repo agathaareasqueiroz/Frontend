@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Atelie Areas Carioca</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- CSS (depois do Bootstrap, para poder sobrescrever estilos) -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+          <img src="img/logo.jpg" alt="Logo" height="40" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="container-fluid mt-3">
+</div>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Inicio</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Serviços</a></li>
+            <li><a class="dropdown-item" href="#">Sobre</a></li>
+            <li><a class="dropdown-item" href="#">Orçamento</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="">
+        <button class="btn btn-primary" type="button">Pesquisar</button>
+      </form>
+  </div>
+</nav>
+<div class="container-fluid mt-3">
+  <h3>Carrosel Exemplo</h3>
+  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../Frontend/img/fotoconserto.jpg" alt="costura" class="d-block" style="width:100%;">
+    </div>
+    <div class="carousel-item">
+      <img src="../Frontend/img/fotocostura.jpg" alt="conserto" class="d-block" style="width:100%;">
+    </div>
+    <div class="carousel-item">
+      <img src="../Frontend/img/fotocostura2.jpg" alt="costura2" class="d-block" style="width:100%;">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+
+</div>
+
+<footer class="footer"><div class="container footer-inner"><span>©</span> Ateliê Areas Carioca</span><span id="year"></span><div>Costura • Consertos • Criações</div><span></span></div>
+</footer>
+</body>
+</html>
+
+
